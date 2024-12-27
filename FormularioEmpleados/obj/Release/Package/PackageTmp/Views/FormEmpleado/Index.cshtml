@@ -1,0 +1,436 @@
+﻿@model FormularioEmpleados.Models.EmpleadoModel
+
+@{
+    ViewBag.Title = "Nuevo Registro";
+}
+
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/formulario.css" />
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <form form enctype="multipart/form-data" method="post" action="@Url.Action("Index")">
+        <div class="container container-form" style="display:block;" id="DatosPersonales">
+            <div class="row align-items-center justify-content-center mt-3">
+                <div class="col-6 mt-3">
+                    <h4 class="text-center text-black"><b>Datos principales</b></h4>
+                </div>
+            </div>
+            <div>
+                <div class="row">
+                    <div class="col-md-4">
+                        @Html.LabelFor(model => model.Nombre, htmlAttributes: new { @class = "form-label text-black" })
+                        @Html.EditorFor(model => model.Nombre, new { htmlAttributes = new { @class = "form-control text-black bg-white", id = "Nombre" } })
+                        @Html.ValidationMessageFor(model => model.Nombre, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label text-black">Apellido Paterno</label>
+                        @Html.EditorFor(model => model.ApellidoPaterno, new { htmlAttributes = new { @class = "form-control text-black bg-white", id = "ApellidoPaterno" } })
+                        @Html.ValidationMessageFor(model => model.ApellidoPaterno, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label text-black">Apellido Materno</label>
+                        @Html.EditorFor(model => model.ApellidoMaterno, new { htmlAttributes = new { @class = "form-control text-black bg-white", id = "ApellidoMaterno" } })
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <label class="form-label text-black">Fecha De Nacimiento</label>
+                        @Html.EditorFor(model => model.FechaDeNacimiento, new { htmlAttributes = new { @class = "form-control text-black bg-white", id = "FechaDeNacimiento" } })
+                        @Html.ValidationMessageFor(model => model.FechaDeNacimiento, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="col-md-4">
+                        @Html.LabelFor(model => model.Telefono, htmlAttributes: new { @class = "form-label text-black" })
+                        @Html.EditorFor(model => model.Telefono, new { htmlAttributes = new { @type = "number", @class = "form-control text-black bg-white ", id = "Telefono" } })
+
+                    </div>
+
+                    <div class="col-md-4">
+                        @Html.LabelFor(model => model.Celular, htmlAttributes: new { @class = "form-label text-black" })
+                        @Html.EditorFor(model => model.Celular, new { htmlAttributes = new { @type = "number", @class = "form-control text-black bg-white", oninput = "validaExistenciaEmpleado();", id = "Celular" } })
+                        @Html.ValidationMessageFor(model => model.Celular, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "form-label text-black" })
+                        @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control text-black bg-white", Type = "email", id = "Email" } })
+                        @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="col-md-4">
+                        @Html.LabelFor(model => model.Numero_Hijos, htmlAttributes: new { @class = "form-label text-black" })
+                        @Html.EditorFor(model => model.Numero_Hijos, new { htmlAttributes = new { @class = "form-control text-black bg-white", id = "Numero_Hijos" } })
+                    </div>
+                    <div class="col-md-4">
+                        @Html.LabelFor(model => model.Grado_Estudios_Id, htmlAttributes: new { @class = "form-label text-black" })
+                        @Html.DropDownListFor(m => m.Grado_Estudios_Id,
+                                       ViewBag.Grado_Estudios_Id as SelectList, "Selecciona una opción",
+                                       new { @class = "form-control", id = "GradoEstudiosID" })
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <label class="form-label text-black">Area</label>
+                        @Html.DropDownListFor(m => m.AreaID,
+                                      ViewBag.AreaID as SelectList, "Selecciona una opción",
+                                      new { @class = "form-control", id = "AreaID" })
+                        @Html.ValidationMessageFor(model => model.AreaID, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label text-black">Puesto</label>
+                        @Html.DropDownListFor(m => m.PuestoID,
+                                      ViewBag.PuestoID as SelectList, "Selecciona una opción",
+                                      new { @class = "form-control", id = "PuestoID" })
+                        @Html.ValidationMessageFor(model => model.PuestoID, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-md-4" style="margin-left:20px;">
+                                <div class="row">
+                                    <div>
+                                        <label class="form-label text-black">Cuentas con algún Tipo de Credito</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4 mb-1 " style="margin-left:20px;margin-top:-20px;">
+                                        <label>Si</label>
+                                        <input type="radio" id="opcion2" name="opcion" value="opcion2">
+                                    </div>
+                                    <div class="col-md-4 mb-1" style="margin-left:20px;;margin-top:-20px;">
+                                        <label>No</label>
+                                        <input type="radio" id="opcion2" name="opcion" value="opcion2">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <label class="form-label text-black">Tipo de credito</label>
+                                @Html.DropDownListFor(m => m.Tipo_De_Credito,
+                                ViewBag.Tipo_De_Credito as SelectList, "Selecciona una opción",
+                                new { @class = "form-control", id = "Tipo_De_Credito" })
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container container-form" style="display:none" id="Direccion">
+            <div class="row align-items-center justify-content-center mt-3">
+                <div class="col-6 mt-3 mb-4">
+                    <h4 class="text-center text-black"><b>Dirección</b></h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    @Html.LabelFor(model => model.Calle, htmlAttributes: new { @class = "form-label text-black" })
+                    @Html.EditorFor(model => model.Calle, new { htmlAttributes = new { @class = "form-control text-black bg-white", id = "Calle" } })
+                    @Html.ValidationMessageFor(model => model.Calle, "", new { @class = "text-danger" })
+                </div>
+                <div class="col-md-4">
+                    <label class="form-label text-black">Colonia</label>
+                    @Html.EditorFor(model => model.Colonia, new { htmlAttributes = new { @class = "form-control text-black bg-white", id = "Colonia" } })
+                    @Html.ValidationMessageFor(model => model.Colonia, "", new { @class = "text-danger" })
+                </div>
+                <div class="col-md-4">
+                    <label class="form-label text-black">Numero Exterior</label>
+                    @Html.EditorFor(model => model.NumeroExterior, new { htmlAttributes = new { @class = "form-control text-black bg-white", id = "NumeroExterior" } })
+                    @Html.ValidationMessageFor(model => model.NumeroExterior, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <label class="form-label text-black">Numero Interior</label>
+                    @Html.EditorFor(model => model.NumeroInterior, new { htmlAttributes = new { @class = "form-control text-black bg-white", id = "NumeroInterior" } })
+                </div>
+                <div class="col-md-4">
+                    <label class="form-label text-black">Codigo Postal</label>
+                    @Html.EditorFor(model => model.CodigoPostal, new { htmlAttributes = new { @type = "number", @class = "form-control text-black bg-white", id = "CodigoPostal" } })
+                    @Html.ValidationMessageFor(model => model.CodigoPostal, "", new { @class = "text-danger" })
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container container-form" style="display:none" id="DatosFactura">
+            <div class="row align-items-center justify-content-center mt-3">
+                <div class="col-6 mt-3 mb-4">
+                    <h4 class="text-center text-black"><b>Datos de facturación</b></h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    @Html.LabelFor(model => model.Curp, htmlAttributes: new { @class = "form-label text-black" })
+                    @Html.EditorFor(model => model.Curp, new { htmlAttributes = new { @class = "form-control text-black bg-white", id = "Curp" } })
+
+                </div>
+                <div class="col-md-4">
+                    @Html.LabelFor(model => model.RFC, htmlAttributes: new { @class = "form-label text-black" })
+                    @Html.EditorFor(model => model.RFC, new { htmlAttributes = new { @class = "form-control text-black bg-white", oninput = "validaExistenciaEmpleado();", id = "RFC" } })
+
+                </div>
+                <div class="col-md-4">
+                    @Html.LabelFor(model => model.NSS, htmlAttributes: new { @class = "form-label text-black" })
+                    @Html.EditorFor(model => model.NSS, new { htmlAttributes = new { @type = "number", @class = "form-control text-black bg-white", oninput = "validaExistenciaEmpleado();", id = "NSS" } })
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <label class="form-label text-black">Clave Interbancaria</label>
+                    @Html.EditorFor(model => model.ClaveInterbancaria, new { htmlAttributes = new { @type = "number", @class = "form-control text-black bg-white", id = "ClaveInterbancaria" } })
+
+                </div>
+                <div class="col-md-4">
+                    <label class="form-label text-black">Numero De Cuenta</label>
+                    @Html.EditorFor(model => model.NumeroDeCuenta, new { htmlAttributes = new { @type = "number", @class = "form-control text-black bg-white", id = "NumeroDeCuenta" } })
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container container-form" style="display:none" id="DatosEmergencia">
+            <div>
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-6 mt-3">
+                        <h4 class="text-center text-black"><b>Datos de emergencia</b></h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="row align-items-center justify-content-center mt-3">
+                        <div class="col-6 mt-3 mb-4">
+                            <h4 class="text-center text-black"><b>Contacto 1</b></h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <label class="form-label text-black">Nombre</label>
+                            @Html.EditorFor(model => model.NombreReferenciaUno, new { htmlAttributes = new { @class = "form-control text-black bg-white", id = "NombreReferenciaUno" } })
+
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label text-black">Apellido Paterno</label>
+                            @Html.EditorFor(model => model.ApellidoPaternoReferenciaUno, new { htmlAttributes = new { @class = "form-control text-black bg-white", id = "ApellidoPaternoReferenciaUno" } })
+
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label text-black">Apellido </label>
+                            @Html.EditorFor(model => model.ApellidoMaternoReferenciaUno, new { htmlAttributes = new { @class = "form-control text-black bg-white", id = "ApellidoMaternoReferenciaUno" } })
+
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-md-4">
+                            <label class="form-label text-black">Parentesco </label>
+                            @Html.EditorFor(model => model.ParentescoReferenciaUno, new { htmlAttributes = new { @class = "form-control text-black bg-white", id = "ParentescoReferenciaUno" } })
+
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label text-black">Telefono</label>
+                            @Html.EditorFor(model => model.TelefonoReferenciaUno, new { htmlAttributes = new { @type = "number", @class = "form-control text-black bg-white", id = "TelefonoReferenciaUno" } })
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="row align-items-center justify-content-center mt-3">
+                        <div class="col-6 mt-3 mb-4">
+                            <h4 class="text-center text-black"><b>Contacto 2</b></h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <label class="form-label text-black">Nombre</label>
+                            @Html.EditorFor(model => model.NombreReferenciaDos, new { htmlAttributes = new { @class = "form-control text-black bg-white", id = "NombreReferenciaDos" } })
+
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label text-black">Apellido Paterno </label>
+                            @Html.EditorFor(model => model.ApellidoPaternoReferenciaDos, new { htmlAttributes = new { @class = "form-control text-black bg-white", id = "ApellidoPaternoReferenciaDos" } })
+
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label text-black">Apellido Materno </label>
+                            @Html.EditorFor(model => model.ApellidoMaternoReferenciaDos, new { htmlAttributes = new { @class = "form-control text-black bg-white", id = "ApellidoMaternoReferenciaDos" } })
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <label class="form-label text-black">Parentesco </label>
+                            @Html.EditorFor(model => model.ParentescoReferenciaDos, new { htmlAttributes = new { @class = "form-control text-black bg-white", id = "ParentescoReferenciaDos" } })
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label text-black">Telefono</label>
+                            @Html.EditorFor(model => model.TelefonoReferenciaDos, new { htmlAttributes = new { @type = "number", @class = "form-control text-black bg-white", id = "TelefonoReferenciaDos" } })
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container container-form" style="display:none" id="CargaDocumentos">
+            <div class="row align-items-center justify-content-center mt-3">
+                <div class="col-6 mt-3 mb-4">
+                    <h4 class="text-center text-black"><b>Carga de Documentación</b></h4>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-4">
+                        <label class="form-label text-black">INE</label>
+                        <input type="file" name="ine" id="ine" class="form-control" accept="application/pdf" />
+
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label text-black">Acta de Nacimiento</label>
+                        <input type="file" name="actanacimiento" id="actanacimiento" class="form-control" accept="application/pdf" />
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label text-black">Grado de Estudios</label>
+                        <input type="file" name="gradodeestudios" id="gradodeestudios" class="form-control" accept="application/pdf" />
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-4">
+                        <label class="form-label text-black">Comprobante de Domicilio</label>
+                        <input type="file" name="comprobantededomicilio" id="comprobantededomicilio" class="form-control" accept="application/pdf" />
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label text-black">Comprobante Bancario</label>
+                        <input type="file" name="comprobantebancario" id="comprobantebancario" class="form-control" accept="application/pdf" />
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label text-black">Hoja de Retención</label>
+                        <input type="file" name="hojaderetencion" id="hojaderetencion" class="form-control" accept="application/pdf" />
+                    </div>
+                </div>
+
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-4">
+                        <label class="form-label text-black">RFC</label>
+                        <input type="file" name="rfc" id="upload" class="form-control" accept="application/pdf"
+                               onchange="document.getElementById('output').src = window.URL.createObjectURL(this.files[0])" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row align-items-center justify-content-center mt-3">
+            <div class="col-6 mt-3">
+                <div class="d-flex justify-content-evenly mt-4 mb-5 btn-group">
+                    <input type="button" value="Atras" class="btn btn-warning m-4 btn-form" id="Atras" style="display:none" onclick="RegresarForm();" />
+                    <input type="button" value="Siguiente" class="btn btn-info m-4 btn-form" id="Siguiente" onclick="SiguienteEtapa();" />
+                    <input type="submit" value="Guardar" class="btn btn-success m-4 btn-form" id="Guardar" style="display:none" />
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+
+@*logica de control para las etapas del form*@
+
+@{
+    <script>
+        var etapaFormulario = 0;
+
+        function SiguienteEtapa() {
+            if (etapaFormulario == 0) {
+                document.getElementById('DatosPersonales').style.display = 'none';
+                document.getElementById('Direccion').style.display = 'block';
+                document.getElementById('Atras').style.display = 'block';
+                etapaFormulario = 1;
+            } else
+                if (etapaFormulario == 1) {
+                    document.getElementById('Direccion').style.display = 'none';
+                    document.getElementById('DatosFactura').style.display = 'block';
+                    etapaFormulario = 2;
+                } else
+                    if (etapaFormulario == 2) {
+                        document.getElementById('DatosFactura').style.display = 'none';
+                        document.getElementById('DatosEmergencia').style.display = 'block';
+                        etapaFormulario = 3;
+                    } else
+                        if (etapaFormulario == 3) {
+                            document.getElementById('DatosEmergencia').style.display = 'none';
+                            document.getElementById('CargaDocumentos').style.display = 'block';
+                            document.getElementById('Siguiente').style.display = 'none';
+                            document.getElementById('Guardar').style.display = 'block';
+                            etapaFormulario = 4;
+                        }
+
+        }
+
+        function RegresarForm() {
+            if (etapaFormulario == 4) {
+                document.getElementById('CargaDocumentos').style.display = 'none';
+                document.getElementById('DatosEmergencia').style.display = 'block';
+                etapaFormulario = 3;
+            } else
+                if (etapaFormulario == 3) {
+                    document.getElementById('DatosEmergencia').style.display = 'none';
+                    document.getElementById('DatosFactura').style.display = 'block';
+                    document.getElementById('Siguiente').style.display = 'block';
+                    document.getElementById('Guardar').style.display = 'none';
+                    etapaFormulario = 2;
+                } else
+                    if (etapaFormulario == 2) {
+                        document.getElementById('DatosFactura').style.display = 'none';
+                        document.getElementById('Direccion').style.display = 'block';
+                        etapaFormulario = 1;
+                    } else
+                        if (etapaFormulario == 1) {
+                            document.getElementById('Direccion').style.display = 'none';
+                            document.getElementById('DatosPersonales').style.display = 'block';
+                            document.getElementById('Atras').style.display = 'none';
+                            etapaFormulario = 0;
+                        }
+
+        }
+    </script>
+}
+
+
+@{ if (ViewBag.Mensaje != null)
+    {
+        <script type="text/javascript">
+            window.onload = function () {
+                 Swal.fire({
+                     icon: '@ViewBag.TipoMensaje',
+                     text: '@ViewBag.Mensaje',
+                     showConfirmButton: false,
+                     position: 'center',
+                 })
+        };
+        </script>
+    }
+}
+
+
+
+
+

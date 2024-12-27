@@ -1,0 +1,290 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Egp\\Desktop\\respaldo\\git\\FormularioEmpleados\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B2ABDC25-FFE5-4BF0-826B-C6F9CC7111FC}|FormularioEmpleados\\FormularioEmpleados.csproj|c:\\users\\egp\\desktop\\respaldo\\git\\formularioempleados\\formularioempleados\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B2ABDC25-FFE5-4BF0-826B-C6F9CC7111FC}|FormularioEmpleados\\FormularioEmpleados.csproj|solutionrelative:formularioempleados\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2ABDC25-FFE5-4BF0-826B-C6F9CC7111FC}|FormularioEmpleados\\FormularioEmpleados.csproj|c:\\users\\egp\\desktop\\respaldo\\git\\formularioempleados\\formularioempleados\\context\\s3service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2ABDC25-FFE5-4BF0-826B-C6F9CC7111FC}|FormularioEmpleados\\FormularioEmpleados.csproj|solutionrelative:formularioempleados\\context\\s3service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2ABDC25-FFE5-4BF0-826B-C6F9CC7111FC}|FormularioEmpleados\\FormularioEmpleados.csproj|c:\\users\\egp\\desktop\\respaldo\\git\\formularioempleados\\formularioempleados\\context\\listasformulario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2ABDC25-FFE5-4BF0-826B-C6F9CC7111FC}|FormularioEmpleados\\FormularioEmpleados.csproj|solutionrelative:formularioempleados\\context\\listasformulario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2ABDC25-FFE5-4BF0-826B-C6F9CC7111FC}|FormularioEmpleados\\FormularioEmpleados.csproj|C:\\Users\\Egp\\Desktop\\respaldo\\git\\FormularioEmpleados\\formularioempleados\\context\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2ABDC25-FFE5-4BF0-826B-C6F9CC7111FC}|FormularioEmpleados\\FormularioEmpleados.csproj|solutionrelative:formularioempleados\\context\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2ABDC25-FFE5-4BF0-826B-C6F9CC7111FC}|FormularioEmpleados\\FormularioEmpleados.csproj|c:\\users\\egp\\desktop\\respaldo\\git\\formularioempleados\\formularioempleados\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2ABDC25-FFE5-4BF0-826B-C6F9CC7111FC}|FormularioEmpleados\\FormularioEmpleados.csproj|solutionrelative:formularioempleados\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2ABDC25-FFE5-4BF0-826B-C6F9CC7111FC}|FormularioEmpleados\\FormularioEmpleados.csproj|c:\\users\\egp\\desktop\\respaldo\\git\\formularioempleados\\formularioempleados\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2ABDC25-FFE5-4BF0-826B-C6F9CC7111FC}|FormularioEmpleados\\FormularioEmpleados.csproj|solutionrelative:formularioempleados\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2ABDC25-FFE5-4BF0-826B-C6F9CC7111FC}|FormularioEmpleados\\FormularioEmpleados.csproj|c:\\users\\egp\\desktop\\respaldo\\git\\formularioempleados\\formularioempleados\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2ABDC25-FFE5-4BF0-826B-C6F9CC7111FC}|FormularioEmpleados\\FormularioEmpleados.csproj|solutionrelative:formularioempleados\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2ABDC25-FFE5-4BF0-826B-C6F9CC7111FC}|FormularioEmpleados\\FormularioEmpleados.csproj|c:\\users\\egp\\desktop\\respaldo\\git\\formularioempleados\\formularioempleados\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2ABDC25-FFE5-4BF0-826B-C6F9CC7111FC}|FormularioEmpleados\\FormularioEmpleados.csproj|solutionrelative:formularioempleados\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2ABDC25-FFE5-4BF0-826B-C6F9CC7111FC}|FormularioEmpleados\\FormularioEmpleados.csproj|c:\\users\\egp\\desktop\\respaldo\\git\\formularioempleados\\formularioempleados\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B2ABDC25-FFE5-4BF0-826B-C6F9CC7111FC}|FormularioEmpleados\\FormularioEmpleados.csproj|solutionrelative:formularioempleados\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2ABDC25-FFE5-4BF0-826B-C6F9CC7111FC}|FormularioEmpleados\\FormularioEmpleados.csproj|c:\\users\\egp\\desktop\\respaldo\\git\\formularioempleados\\formularioempleados\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B2ABDC25-FFE5-4BF0-826B-C6F9CC7111FC}|FormularioEmpleados\\FormularioEmpleados.csproj|solutionrelative:formularioempleados\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2ABDC25-FFE5-4BF0-826B-C6F9CC7111FC}|FormularioEmpleados\\FormularioEmpleados.csproj|C:\\Users\\Egp\\Desktop\\respaldo\\git\\FormularioEmpleados\\formularioempleados\\views\\formempleado\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2ABDC25-FFE5-4BF0-826B-C6F9CC7111FC}|FormularioEmpleados\\FormularioEmpleados.csproj|solutionrelative:formularioempleados\\views\\formempleado\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2ABDC25-FFE5-4BF0-826B-C6F9CC7111FC}|FormularioEmpleados\\FormularioEmpleados.csproj|C:\\Users\\Egp\\Desktop\\respaldo\\git\\FormularioEmpleados\\formularioempleados\\controllers\\formempleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2ABDC25-FFE5-4BF0-826B-C6F9CC7111FC}|FormularioEmpleados\\FormularioEmpleados.csproj|solutionrelative:formularioempleados\\controllers\\formempleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2ABDC25-FFE5-4BF0-826B-C6F9CC7111FC}|FormularioEmpleados\\FormularioEmpleados.csproj|C:\\Users\\Egp\\Desktop\\respaldo\\git\\FormularioEmpleados\\formularioempleados\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2ABDC25-FFE5-4BF0-826B-C6F9CC7111FC}|FormularioEmpleados\\FormularioEmpleados.csproj|solutionrelative:formularioempleados\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2ABDC25-FFE5-4BF0-826B-C6F9CC7111FC}|FormularioEmpleados\\FormularioEmpleados.csproj|C:\\Users\\Egp\\Desktop\\respaldo\\git\\FormularioEmpleados\\formularioempleados\\css\\formulario.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B2ABDC25-FFE5-4BF0-826B-C6F9CC7111FC}|FormularioEmpleados\\FormularioEmpleados.csproj|solutionrelative:formularioempleados\\css\\formulario.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2ABDC25-FFE5-4BF0-826B-C6F9CC7111FC}|FormularioEmpleados\\FormularioEmpleados.csproj|C:\\Users\\Egp\\Desktop\\respaldo\\git\\FormularioEmpleados\\formularioempleados\\context\\tablaempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2ABDC25-FFE5-4BF0-826B-C6F9CC7111FC}|FormularioEmpleados\\FormularioEmpleados.csproj|solutionrelative:formularioempleados\\context\\tablaempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2ABDC25-FFE5-4BF0-826B-C6F9CC7111FC}|FormularioEmpleados\\FormularioEmpleados.csproj|C:\\Users\\Egp\\Desktop\\respaldo\\git\\FormularioEmpleados\\formularioempleados\\models\\empleadomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2ABDC25-FFE5-4BF0-826B-C6F9CC7111FC}|FormularioEmpleados\\FormularioEmpleados.csproj|solutionrelative:formularioempleados\\models\\empleadomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 252,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "S3Service.cs",
+              "DocumentMoniker": "C:\\Users\\Egp\\Desktop\\respaldo\\git\\FormularioEmpleados\\FormularioEmpleados\\Context\\S3Service.cs",
+              "RelativeDocumentMoniker": "FormularioEmpleados\\Context\\S3Service.cs",
+              "ToolTip": "C:\\Users\\Egp\\Desktop\\respaldo\\git\\FormularioEmpleados\\FormularioEmpleados\\Context\\S3Service.cs",
+              "RelativeToolTip": "FormularioEmpleados\\Context\\S3Service.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwBwAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T18:38:09.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ListasFormulario.cs",
+              "DocumentMoniker": "C:\\Users\\Egp\\Desktop\\respaldo\\git\\FormularioEmpleados\\FormularioEmpleados\\Context\\ListasFormulario.cs",
+              "RelativeDocumentMoniker": "FormularioEmpleados\\Context\\ListasFormulario.cs",
+              "ToolTip": "C:\\Users\\Egp\\Desktop\\respaldo\\git\\FormularioEmpleados\\FormularioEmpleados\\Context\\ListasFormulario.cs",
+              "RelativeToolTip": "FormularioEmpleados\\Context\\ListasFormulario.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T18:38:01.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Egp\\Desktop\\respaldo\\git\\FormularioEmpleados\\FormularioEmpleados\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "FormularioEmpleados\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\Egp\\Desktop\\respaldo\\git\\FormularioEmpleados\\FormularioEmpleados\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "FormularioEmpleados\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T18:37:42.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FilterConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Egp\\Desktop\\respaldo\\git\\FormularioEmpleados\\FormularioEmpleados\\App_Start\\FilterConfig.cs",
+              "RelativeDocumentMoniker": "FormularioEmpleados\\App_Start\\FilterConfig.cs",
+              "ToolTip": "C:\\Users\\Egp\\Desktop\\respaldo\\git\\FormularioEmpleados\\FormularioEmpleados\\App_Start\\FilterConfig.cs",
+              "RelativeToolTip": "FormularioEmpleados\\App_Start\\FilterConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T18:37:40.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Egp\\Desktop\\respaldo\\git\\FormularioEmpleados\\FormularioEmpleados\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "FormularioEmpleados\\App_Start\\BundleConfig.cs",
+              "ToolTip": "C:\\Users\\Egp\\Desktop\\respaldo\\git\\FormularioEmpleados\\FormularioEmpleados\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "FormularioEmpleados\\App_Start\\BundleConfig.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T18:37:37.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Egp\\Desktop\\respaldo\\git\\FormularioEmpleados\\FormularioEmpleados\\Views\\Web.config",
+              "RelativeDocumentMoniker": "FormularioEmpleados\\Views\\Web.config",
+              "ToolTip": "C:\\Users\\Egp\\Desktop\\respaldo\\git\\FormularioEmpleados\\FormularioEmpleados\\Views\\Web.config",
+              "RelativeToolTip": "FormularioEmpleados\\Views\\Web.config",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-27T18:36:58.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\Egp\\Desktop\\respaldo\\git\\FormularioEmpleados\\FormularioEmpleados\\packages.config",
+              "RelativeDocumentMoniker": "FormularioEmpleados\\packages.config",
+              "ToolTip": "C:\\Users\\Egp\\Desktop\\respaldo\\git\\FormularioEmpleados\\FormularioEmpleados\\packages.config",
+              "RelativeToolTip": "FormularioEmpleados\\packages.config",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-27T18:36:38.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\Egp\\Desktop\\respaldo\\git\\FormularioEmpleados\\FormularioEmpleados\\Global.asax.cs",
+              "RelativeDocumentMoniker": "FormularioEmpleados\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\Egp\\Desktop\\respaldo\\git\\FormularioEmpleados\\FormularioEmpleados\\Global.asax.cs",
+              "RelativeToolTip": "FormularioEmpleados\\Global.asax.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T18:36:33.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Egp\\Desktop\\respaldo\\git\\FormularioEmpleados\\FormularioEmpleados\\Web.config",
+              "RelativeDocumentMoniker": "FormularioEmpleados\\Web.config",
+              "ToolTip": "C:\\Users\\Egp\\Desktop\\respaldo\\git\\FormularioEmpleados\\FormularioEmpleados\\Web.config",
+              "RelativeToolTip": "FormularioEmpleados\\Web.config",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-27T18:28:36.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Egp\\Desktop\\respaldo\\git\\FormularioEmpleados\\FormularioEmpleados\\Context\\DBContext.cs",
+              "RelativeDocumentMoniker": "FormularioEmpleados\\Context\\DBContext.cs",
+              "ToolTip": "C:\\Users\\Egp\\Desktop\\respaldo\\git\\FormularioEmpleados\\FormularioEmpleados\\Context\\DBContext.cs",
+              "RelativeToolTip": "FormularioEmpleados\\Context\\DBContext.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAgwAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T18:26:10.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TablaEmpleados.cs",
+              "DocumentMoniker": "C:\\Users\\Egp\\Desktop\\respaldo\\git\\FormularioEmpleados\\FormularioEmpleados\\Context\\TablaEmpleados.cs",
+              "RelativeDocumentMoniker": "FormularioEmpleados\\Context\\TablaEmpleados.cs",
+              "ToolTip": "C:\\Users\\Egp\\Desktop\\respaldo\\git\\FormularioEmpleados\\FormularioEmpleados\\Context\\TablaEmpleados.cs",
+              "RelativeToolTip": "FormularioEmpleados\\Context\\TablaEmpleados.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T06:15:51.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EmpleadoModel.cs",
+              "DocumentMoniker": "C:\\Users\\Egp\\Desktop\\respaldo\\git\\FormularioEmpleados\\FormularioEmpleados\\Models\\EmpleadoModel.cs",
+              "RelativeDocumentMoniker": "FormularioEmpleados\\Models\\EmpleadoModel.cs",
+              "ToolTip": "C:\\Users\\Egp\\Desktop\\respaldo\\git\\FormularioEmpleados\\FormularioEmpleados\\Models\\EmpleadoModel.cs",
+              "RelativeToolTip": "FormularioEmpleados\\Models\\EmpleadoModel.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAAwEoAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T04:32:12.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Egp\\Desktop\\respaldo\\git\\FormularioEmpleados\\FormularioEmpleados\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FormularioEmpleados\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Egp\\Desktop\\respaldo\\git\\FormularioEmpleados\\FormularioEmpleados\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FormularioEmpleados\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAqwBIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T04:16:14.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "formulario.css",
+              "DocumentMoniker": "C:\\Users\\Egp\\Desktop\\respaldo\\git\\FormularioEmpleados\\FormularioEmpleados\\css\\formulario.css",
+              "RelativeDocumentMoniker": "FormularioEmpleados\\css\\formulario.css",
+              "ToolTip": "C:\\Users\\Egp\\Desktop\\respaldo\\git\\FormularioEmpleados\\FormularioEmpleados\\css\\formulario.css",
+              "RelativeToolTip": "FormularioEmpleados\\css\\formulario.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-24T02:33:15.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Egp\\Desktop\\respaldo\\git\\FormularioEmpleados\\FormularioEmpleados\\Views\\FormEmpleado\\Index.cshtml",
+              "RelativeDocumentMoniker": "FormularioEmpleados\\Views\\FormEmpleado\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Egp\\Desktop\\respaldo\\git\\FormularioEmpleados\\FormularioEmpleados\\Views\\FormEmpleado\\Index.cshtml",
+              "RelativeToolTip": "FormularioEmpleados\\Views\\FormEmpleado\\Index.cshtml",
+              "ViewState": "AgIAAIcBAAAAAAAAAAAqwIoBAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-06T15:54:18.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FormEmpleadoController.cs",
+              "DocumentMoniker": "C:\\Users\\Egp\\Desktop\\respaldo\\git\\FormularioEmpleados\\FormularioEmpleados\\Controllers\\FormEmpleadoController.cs",
+              "RelativeDocumentMoniker": "FormularioEmpleados\\Controllers\\FormEmpleadoController.cs",
+              "ToolTip": "C:\\Users\\Egp\\Desktop\\respaldo\\git\\FormularioEmpleados\\FormularioEmpleados\\Controllers\\FormEmpleadoController.cs",
+              "RelativeToolTip": "FormularioEmpleados\\Controllers\\FormEmpleadoController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAewE4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T15:53:05.9Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

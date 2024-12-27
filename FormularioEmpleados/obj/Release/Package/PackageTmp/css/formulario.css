@@ -1,0 +1,24 @@
+﻿body {
+  background-color:darkgrey;
+}
+
+.container-form {
+    background-color: white;
+    border-radius: 20px;
+    
+}
+
+#Atras, #Siguiente, #Guardar {
+    border-radius: 20px;
+    height: 40px;
+}
+
+.row{
+    margin-bottom:30px;
+}
+.row-datos-emergencia {
+    margin-bottom: 3px;
+}
+.form-control, .form-label, .text-danger {
+    margin-left: 30px;
+}
